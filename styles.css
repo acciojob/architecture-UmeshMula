@@ -1,6 +1,29 @@
-body{
-	width: 1100px;
-}
-.imageContainer{
-	display:center;
-}
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .imageContainer {
+            margin: 20px 0;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th, td {
+            width: 33.33%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
